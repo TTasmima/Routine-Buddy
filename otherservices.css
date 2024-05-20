@@ -1,0 +1,87 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color:white ;
+}
+.navbar{
+    background-color: rgb(237, 216, 237);
+    font-family:  'Poppins', sans-serif;
+    padding-right: 15px ;
+    padding-left: 15px;
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+
+}
+li{
+    display: inline-block;
+    color: (55, 3, 106, 0.5) ;
+
+}
+li a{
+    color: white;
+    font-size: 18px; 
+
+    font-weight: 700;
+    margin-right: 25px;
+}
+li a:hover{
+    color:rgba(55, 3, 106, 0.6) ;
+}
+.image1{
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color:rgb(82, 109, 156);
+    position: absolute;
+
+}
+.content span{
+    color: rgba(55, 3, 106, 0.4) ; 
+}
+
+.image2{
+    padding-top: 30px;
+    margin-top: 40px 20px 0 20px;
+}
+
+
+.one{
+    margin: 0px 0px 0px 50px;
+    padding: 70px 0 0  50px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+p{
+    font-family: 'Poppins',sans-serif;
+    color: rgba(55, 3, 106, 0.9) ;
+    font-weight: 500;
+}
+
+button{
+    background-color: blueviolet;
+    color: beige;
+    border:none;
+    border-radius: 20px;
+    margin:5px 0 5px 10px;
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .4s ease;
+}
