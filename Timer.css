@@ -1,0 +1,62 @@
+body{
+    text-align: center;
+    background-color:darkslategray;
+}
+.navigation {
+    text-align: right;
+    background-color: gray;
+}
+h1{
+    color: coral;
+    font-size: 50px;
+
+}
+
+table{
+    margin: auto;
+}
+
+th{
+    color: coral;
+}
+td{
+    background-color: darkgray;
+    color: lightgray;
+}
+
+input{
+font-size: 18px;
+padding: 7px;
+border-radius: 5px;
+
+}
+
+button{
+    min-width: 120px ;
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: darkgray;
+    color: lightgray;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.countdown{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-size: 20px;
+    color: coral;
+}
+
+.time{
+    background-color: darkgray ;
+    color: lightgray;
+    font-size: 80px;
+    width: 100px;
+    margin:0 10px ;
+
+}
